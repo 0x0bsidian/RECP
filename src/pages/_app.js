@@ -10,6 +10,7 @@ import { gsap } from 'gsap/dist/gsap';
 import Navbar from '@/components/navbar/Navbar';
 import WelcomeAnim from '@/components/welcomeAnim/WelcomeAnim';
 import MainLayout from '@/components/mainLayout/MainLayout';
+import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }) {
 
@@ -17,6 +18,7 @@ export default function App({ Component, pageProps }) {
     <Provider store={store}>
       <MainLayout>
         <Component {...pageProps} />
+        <Analytics />
       </MainLayout>
     </Provider>
   )

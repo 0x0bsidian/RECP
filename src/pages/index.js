@@ -14,6 +14,7 @@ import { hex_sha512 } from '@/helpers/sha256'
 import { next, selectPassword, setCurrent } from '../../store/slices/tutos'
 import { setAll } from '../../store/slices/anim'
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
