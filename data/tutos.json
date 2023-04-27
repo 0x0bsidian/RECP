@@ -1,0 +1,50 @@
+{
+  "tutos": [
+    {
+      "id": 1,
+      "target": "tuto_1",
+      "msg": "some message reallyyyy interesting about some tutorial stuff 1",
+      "offset": {
+        "x": 0,
+        "y": 50
+      }
+    },
+    {
+      "id": 2,
+      "target": "tuto_2",
+      "msg": "some message reallyyyy interesting about some tutorial stuff 2",
+      "offset": {
+        "x": 0,
+        "y": 50
+      }
+    },
+    {
+      "id": 3,
+      "target": "tuto_3",
+      "msg": "some message reallyyyy interesting about some tutorial stuff 3",
+      "offset": {
+        "x": 0,
+        "y": 50
+      }
+    },
+    {
+      "id": 4,
+      "target": "tuto_4",
+      "msg": "some message reallyyyy interesting about some tutorial stuff 4",
+      "offset": {
+        "x": 0,
+        "y": 50
+      }
+    },
+    {
+      "id": 5,
+      "target": "tuto_5",
+      "msg": "some message reallyyyy interesting about some tutorial stuff 5",
+      "offset": {
+        "x": 0,
+        "y": 50
+      }
+    }
+  ],
+  "password": "ad9d7ef14370167f68fdd7a058b1c0a0b3ebc4414a7a4f40ce3fb2e9dd0eea7b0bea1a9f9aae0194e0e50382a86739e02005fbfc82a826eb46d391c7838b0a1d"
+}

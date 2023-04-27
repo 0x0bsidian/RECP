@@ -1,0 +1,80 @@
+.tuto
+  position: fixed
+  min-width: 200px
+  max-width: 300px
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  gap: 20px
+  padding: 25px 15px
+  background-color: var(--prim)
+  border: 2px solid var(--seco)
+  border-radius: 10px
+  z-index: 102
+
+  p
+    text-align: center
+
+.content
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  max-width: 80%
+
+.navigation
+  display: flex
+  gap: 20px
+  flex-wrap: wrap
+
+  button
+    width: 30px
+    height: 30px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 50%
+    padding: 0
+
+    &:hover svg
+      color: var(--prim)
+      filter: brightness(0) invert(100%)
+  
+  & > div
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 5px
+
+    button
+      width: 8px
+      height: 8px
+      border: none
+      background-color: var(--prim)
+      border: 2px dashed var(--seco)
+      cursor: pointer
+
+.active
+  background-color: var(--seco) !important
+  border: 2px solid var(--seco) !important
+
+.close
+  position: absolute
+  top: 5px
+  right: 5px
+  cursor: pointer
+  font-size: 1em
+  transition-duration: .2s
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 30px
+  height: 30px
+  border-radius: 50%
+  border: 2px solid transparent
+
+  &:hover
+    border: 2px solid var(--prim)
+    background-color: var(--seco)
+    color: var(--prim)
